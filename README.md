@@ -1,5 +1,5 @@
 # First-API
-My first API exercise
+My first API exercise: International Space Station pass times.
 
 Hi!
 

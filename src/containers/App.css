@@ -1,0 +1,54 @@
+@font-face {
+  font-family:"Soloist Laser Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local('Soloist Laser Italic'), url('SoloistLaserItalic.otf') format('opentype');
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  font-family: 'Soloist Laser Italic';
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  border-radius:4px;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: burlywood;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+#mapid { 
+  text-align: center;
+  align-items: center;
+  height: 180px; 
+}
+
+.footer {
+    /*padding:30px 50px;*/
+    text-align: center;
+    background-color: #282c34;
+    cursor:pointer;
+    color:#FFF;
+    font-size:1.2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+    }
